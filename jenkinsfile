@@ -1,12 +1,11 @@
-pipeline{
-	agent any
-	stages{
-		stage("code"){
-		steps{
-			sh ' sample code'
-		}
+pipeline {
+  agent any
+  stages {
+    stage("code") {
+      steps {
+        sh ' sample code'
+      }
+    }
+  }
 }
-}
-}
-
 		
